@@ -16,6 +16,7 @@ def print_hi(name):
         writer = csv.writer(row_list)
         for row in df["florida23_standard"].iteritems():
             writer.writerow(row)
+            print("test")
 
 
 if __name__ == '__main__':
